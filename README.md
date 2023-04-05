@@ -18,7 +18,13 @@ The user is able to do the following:
 
 #
 ## Using this file
-Before using the menu, ensure you have read in all the shoes. This can be done by inputting "re" at the start. If this is not done, an error message will appear stating that there are no shoes in the inventory. If the program prints an error message when you try to read the shoes, ensure that the python and text files are both in the current working directory. 
+
+### **Installation**
+Two files are needed to run this program: _inventory.py_ and _inventory.txt_. Ensure these have both been downloaded to the current working directory, otherwise the python file will not be able to fetch data about the shoes from the text file, and the program will not work.
+
+Start by reading in all the shoes. This can be done by inputting "re" when presented with the menu. If this is not done, an error message will appear stating that there are no shoes in the inventory. If everything has been set up correctly, your terminal should look like this: 
+
+![Image: Read shoes function](read_shoes.png)
 
 ### **Searching products by code**
 Let's say you want to look up a shoe, but you only know the shoe code (e.g., _SKU76000_). You can use the menu to find the shoe by inputting "sh". Here is a demonstration: 
